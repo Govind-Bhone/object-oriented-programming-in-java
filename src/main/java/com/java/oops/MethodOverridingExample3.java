@@ -7,6 +7,10 @@ package com.java.oops;
 /*
 *  javac -source 1.4 MethodOverridingExample3.java //compilation error
 *  javac -source 1.6 MethodOverridingExample3.java //works fine
+*
+*  Note :
+*  Method covariant overriding is allowed only for reference types and not for primitive types
+*
 * */
 
 
