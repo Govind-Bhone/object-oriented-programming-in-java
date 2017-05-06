@@ -23,6 +23,11 @@ parent method :     public     protected                 default                
                       |           |                         /\                       |
                       |          / \                      /  |   \                   |
 child method  :     public     public protected     default public protected      can't override
+
+
+why we need access modifier restrictions ?
+
+
  */
 
 class A {
