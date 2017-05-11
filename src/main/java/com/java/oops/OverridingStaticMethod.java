@@ -33,7 +33,7 @@ class SubClass extends SuperClass{
     public void println(){System.out.println("Hello Subclass \n");}
 }
 
-public class OverridingStaticMethods {
+public class OverridingStaticMethod {
     public static void main(String args[]){
         SuperClass clzz= new SubClass();
         SubClass.print();
