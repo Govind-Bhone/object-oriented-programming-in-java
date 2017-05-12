@@ -31,6 +31,33 @@ Polymorphism : one name but multiple forms is called as polymorphism
  implementation (overriding)
 
  3. usage of parent reference to hold child object is concept of polymorphism
+
+
+ Q . why we do this(upcasting) ?
+ parent class reference can be used to hold child object but by using that reference we can call only methods availabale
+ in parent class and we can't call child specific  methods .
+ P  p = new C();
+ p.m1() // works
+ p.m2() // not works
+
+ But by using child object reference we can call both parent as well as child class methods .
+ C c = new C()
+ c.m1() //works
+ c.m2() // works
+
+When we should go for Parent reference to hold child object ?
+1. suppose we have to get the object from collection and we don't know the exact runtime type of object
+then we can go with parent type
+2. sometimes we have to mention  parent object return type if method return different subtype object based
+on different condition .
+3. If we wanted to access only parent class methods and hide the implementation of low level methods from child
+class
+
+
+# pillars of oops
+polymorphism  : Flexibility
+encapsulation : Security
+Inheritance   : Reusability
  */
 class K {
     int x = 888;
