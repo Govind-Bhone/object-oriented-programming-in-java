@@ -17,6 +17,17 @@ we can use interface reference to hold implemented class object.
 Note : above two rules only check reference types .
 3. [Runtime Check ] underlying /Runtime objects type of d must be either same or derived type of C otherwise we will get runtime exception saying ClassCastException
 
+
+Note :
+whenever we do type casting we are not creating new object .just we are providing another type to the existing
+object .
+only one object of type string as well as object type
+means we are performing type casting not actual object casting 
+String str = new String("hello");
+Object o= (Object) str;
+    OR
+Object o = new String("hello");
+
 */
 public class TypeCastingExample {
 
